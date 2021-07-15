@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*,html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-buttons {
+  width: auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.blue-btn {
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background-color: #2885e2;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5rem;
+  margin: 0 1rem;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
-.App-link {
-  color: #61dafb;
+.blue-btn-border {
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5rem;
+  margin: 0 1rem;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blue-btn:hover,
+.blue-btn-border:hover {
+  background-color: #fff;
+  color: #2885e2;
+}
+
+.login-btn {
+  width: 90px;
+  height: 40px;
+  margin:0 .3rem ;
+  border-radius: 2px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+}
+.login-btn:hover {
+  background-color: #fff;
+  color: #2885e2;
+}
+
+.register-btn {
+    border-radius: 2px;
+    width: 90px;
+    height: 40px;
+    margin:0 .3rem ;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2885e2;
+    background-color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.register-btn:hover {
 }

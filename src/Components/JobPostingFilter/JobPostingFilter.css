@@ -1,0 +1,57 @@
+#filter {
+  width: 300px;
+  min-height: 900px;
+  border-radius: 1rem;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#brand-filter {
+  width: 90%;
+  height: 200px;
+  overflow-y: auto;
+  list-style: none;
+ 
+  padding: 0;
+}
+
+#brand-filter li a{
+text-decoration: none;    
+}
+
+#city-filter{
+    width: 90%;
+}
+
+
+#salary-filter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#salary-filter input{
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+    margin: 0;
+    margin-right: .5rem;
+}
+ 
+
+.search-button{
+    width: 160px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+ 
+
+
+
+ 

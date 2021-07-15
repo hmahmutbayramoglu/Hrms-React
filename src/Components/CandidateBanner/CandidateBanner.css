@@ -1,0 +1,32 @@
+#candidate-banner {
+  width: 100%;
+  height: 320px;
+  background-image: url("../../assets/images/candidate-banner-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  color: #fff;
+}
+
+#candidate-banner h4{
+font-size: 34px;
+    
+}
+
+#candidate-banner p{
+    margin: 1.5rem 0;
+}
+ 
+.banner-button{
+    width: 200px;
+    height: 40px;
+    background-color: #EE9400;
+    color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+cursor: pointer;
+}

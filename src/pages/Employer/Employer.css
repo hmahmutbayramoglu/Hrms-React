@@ -1,0 +1,92 @@
+#employers{
+    width: 100%;
+    min-height: 900px;
+ 
+}
+
+#employers .container{
+    width: 100%;
+    height: 100%;
+    padding: 7rem 2rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+#employer-card{
+    width: 270px;
+    height: 340px;
+    border-radius: 1rem;
+    margin: 2rem;
+
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+}
+
+#employer-card .employer-card-header{
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#employer-card .employer-card-header .employer-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0 0 ;
+    background-image: url('../../assets/images/employer-bg-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
+#employer-card .employer-card-header .employer-name{
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+    max-width: 250px;
+    color: #fff;
+    font-size: 22px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#employer-card .employer-card-body{
+    padding: 1rem;
+}
+
+#employer-card .employer-card-body .employer-about-text{
+    opacity: .7;
+    font-size: 15px;
+}
+
+#employer-card .employer-card-body .employer-detail-btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0075D7;
+    color: #fff;
+    position:relative;
+    left: 8.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 1rem;
+    cursor: pointer;
+    
+}
